@@ -1,0 +1,56 @@
+\documentclass[a4paper, 10pt, final, twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsthm, amsmath, amssymb}
+\usepackage[lmargin=0.5in, rmargin=0.5in, tmargin=1in, bmargin=1in]{geometry}
+\setlength{\columnsep}{0.25in}
+%\setlength{\columnseprule}{0.005pt}
+%\usepackage{stix2, inconsolata}
+%\usepackage{stix}
+\usepackage{fourier, inconsolata} % ascii instead of inconsolata works also
+%\usepackage{setspace}
+%\setstretch{1.1}
+%\usepackage{fouriernc}
+%\usepackage{newtxtext, newtxmath}
+%\usepackage[swashQ, lining, p]{cochineal}
+%\usepackage[cochineal, cochrho, cochf]{newtxmath}
+%\usepackage{libertinus, libertinust1math}
+%\usepackage[lining, p]{ebgaramond}
+%\usepackage[ebgaramond]{newtxmath}
+%\usepackage[math]{iwona}
+%\usepackage[math]{kurier}
+%\usepackage{cmbright}
+%\usepackage{fbb, eulervm}
+%\usepackage{XCharter}
+%\usepackage[xcharter]{newtxmath}
+%\usepackage[lining, p]{erewhon}
+%\usepackage[erewhon]{newtxmath}
+%\usepackage{multicol}
+\usepackage{xcolor, graphicx, hyperref, booktabs, microtype, physics, lettrine, blindtext, csquotes, nicefrac}
+%\usepackage[subtle]{savetrees}% [moderate] or [extreme] are also available
+
+\title{EE3305 Robotic System Design}
+\author{Last updated \today}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+%\begin{multicols*}{2}
+\tableofcontents%\clearpage
+\section{Introduction}
+\input{introduction}
+\section{Actuators and Effectors}
+\input{effectors_and_actuators}
+\section{Locomotion}
+\input{locomotion}
+\section{Mobile Robot Kinematics}
+\input{kinematics}
+\section{Perception}
+\input{perception}
+%\end{multicols*}
+\appendix
+\section{Miscellaneous Derivations}
+\input{misc}
+\end{document}
